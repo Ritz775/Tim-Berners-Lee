@@ -43,7 +43,7 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family:'Original Surfer', cursive;
+    font-family: 'Original Surfer', cursive;
 }
 
 h2 {
@@ -88,13 +88,18 @@ p {
 }
 
 .menu {
+    padding-top: 20px;
     list-style: none;
     font-family: fantasy;
+    background: skyblue;
+    text-align: center;
+    width: 100%;
     position: fixed;
     top: 10px;
-    right: 30px;
+    margin-top: -10px;
     z-index: 10;
     cursor: pointer;
+    height: 70px
 }
 
 .links {
@@ -105,30 +110,60 @@ p {
     padding-left: 9px;
     padding-right: 9px;
     font-size: 30px;
-    font-family:'Original Surfer', cursive;
+    font-family: 'Original Surfer', cursive;
+    display: inline;
 }
 
 .links:hover {
     background-color: pink;
+    text-decoration: underline;
 }
 
-a{
+a {
     text-decoration: none;
+    text-shadow: 1px 1px blue;
 }
 
-.article:hover{
+.article:hover {
     color: palevioletred;
 }
 
-html{
-    scroll-behavior: smooth
+html {
+    scroll-behavior: smooth;
 }
 
-#work, #writings, #videos{
-    background:linear-gradient(skyblue 100%, white 0%); 
+#work,
+#writings,
+#videos {
+    background: linear-gradient(skyblue 100%, white 0%);
 }
 
-#writings{
+#writings {
     font-size: 40px;
+
+
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: darkblue!important;
+}
+
+#contact{
+    background-color: darkcyan;
     
+}
+
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3{
+    display: inline;
+}
+
+#maps{
+    width: 100%;
 }
